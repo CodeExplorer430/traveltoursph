@@ -4,7 +4,7 @@ import { useState } from "react"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
-import { Settings, Building2, CreditCard, Mail, Shield, Save } from "lucide-react"
+import { Building2, CreditCard, Mail, Shield, Save } from "lucide-react"
 import AdminSidebar from "@/components/admin-sidebar"
 
 type TabType = "general" | "payment" | "email" | "security"

@@ -31,7 +31,7 @@ export default function DashboardPage() {
       checkOut: "2025-02-18",
       travelers: 2,
       totalPrice: 25998,
-      status: "confirmed",
+      status: "confirmed" as const,
       image: "https://www.vacationstravel.com/wp-content/uploads/2018/02/105_boracay_shutterstock_559004854.jpg",
     },
     {
@@ -43,7 +43,7 @@ export default function DashboardPage() {
       checkOut: "2025-03-14",
       travelers: 3,
       totalPrice: 47997,
-      status: "pending",
+      status: "pending" as const,
       image: "https://cdn.tourradar.com/s3/review/1500x800/357813_65fed347adfb9.jpg",
     },
     {
@@ -55,7 +55,7 @@ export default function DashboardPage() {
       checkOut: "2024-12-22",
       travelers: 2,
       totalPrice: 19998,
-      status: "completed",
+      status: "completed" as const,
       image: "https://blog.worldpinoyflights.com/wp-content/uploads/2025/07/Cebu-CityThings-to-do-in-Cebu-City-World-Pinoy-Flights-Blog.jpg",
     },
   ]

@@ -3,8 +3,16 @@
 import { MapPin, Calendar, Users, Clock } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
+interface PackageData {
+  name: string
+  destination: string
+  duration: string
+  price: number
+  image?: string
+}
+
 interface BookingSummaryProps {
-  packageData: any
+  packageData: PackageData
   travelers: number
   checkIn: string
   onContinue: () => void
@@ -57,7 +65,7 @@ export default function BookingSummary({ packageData, travelers, checkIn, onCont
 
         {/* What's Included */}
         <div>
-          <h4 className="font-semibold text-foreground mb-3">What's Included</h4>
+          <h4 className="font-semibold text-foreground mb-3">What&apos;s Included</h4>
           <ul className="space-y-2 text-sm text-muted-foreground">
             <li>✓ Accommodation</li>
             <li>✓ Daily breakfast</li>

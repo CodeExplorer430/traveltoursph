@@ -133,7 +133,7 @@ function ConfirmationContent() {
 
         {/* Next Steps */}
         <Card className="p-8 mb-8">
-          <h2 className="text-2xl font-bold text-foreground mb-6">What's Next?</h2>
+          <h2 className="text-2xl font-bold text-foreground mb-6">What&apos;s Next?</h2>
           <div className="space-y-4">
             <div className="flex gap-4">
               <div className="w-8 h-8 rounded-full bg-primary/10 flex items-center justify-center shrink-0">

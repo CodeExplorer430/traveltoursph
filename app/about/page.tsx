@@ -34,7 +34,7 @@ export default function AboutPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">About TravelPH</h1>
           <p className="text-lg text-white/90 max-w-2xl">
-            Discover the Philippines with confidence. We're dedicated to creating unforgettable travel experiences.
+            Discover the Philippines with confidence. We&apos;re dedicated to creating unforgettable travel experiences.
           </p>
         </div>
       </section>
@@ -52,7 +52,7 @@ export default function AboutPage() {
                 adventurers with unforgettable experiences.
               </p>
               <p className="text-neutral-600 leading-relaxed">
-                We believe that travel is more than just visiting places—it's about creating memories, connecting with
+                We believe that travel is more than just visiting places—it&apos;s about creating memories, connecting with
                 cultures, and discovering yourself. Our mission is to make travel accessible, affordable, and
                 extraordinary for everyone.
               </p>

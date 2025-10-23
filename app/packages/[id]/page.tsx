@@ -431,7 +431,7 @@ export default function PackageDetailsPage({ params }: { params: Promise<{ id: s
   // Load package data
   useEffect(() => {
     params.then(({ id }) => {
-      setPkg(packageData[id as keyof typeof packageData])
+      setPkg(packageData[id as unknown as keyof typeof packageData])
     })
   }, [params])
 
@@ -536,7 +536,7 @@ export default function PackageDetailsPage({ params }: { params: Promise<{ id: s
               <Tabs defaultValue="itinerary" className="w-full">
                 <TabsList className="grid w-full grid-cols-3 bg-muted">
                   <TabsTrigger value="itinerary">Itinerary</TabsTrigger>
-                  <TabsTrigger value="included">What's Included</TabsTrigger>
+                  <TabsTrigger value="included">What&apos;s Included</TabsTrigger>
                   <TabsTrigger value="reviews">Reviews</TabsTrigger>
                 </TabsList>
 

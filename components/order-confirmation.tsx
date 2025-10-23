@@ -2,8 +2,15 @@ import Link from "next/link"
 import { CheckCircle, Download, Mail, Phone } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
+interface PackageData {
+  name: string
+  destination: string
+  duration: string
+  price: number
+}
+
 interface OrderConfirmationProps {
-  packageData: any
+  packageData: PackageData
   travelers: number
   totalPrice: number
 }
@@ -60,7 +67,7 @@ export default function OrderConfirmation({ packageData, travelers, totalPrice }
 
         {/* Next Steps */}
         <div className="bg-blue-50 border border-blue-200 rounded-lg p-6 mb-8 text-left">
-          <h3 className="font-semibold text-blue-900 mb-3">What's Next?</h3>
+          <h3 className="font-semibold text-blue-900 mb-3">What&apos;s Next?</h3>
           <ul className="space-y-2 text-sm text-blue-900">
             <li>✓ Check your email for booking confirmation and itinerary</li>
             <li>✓ Download your e-ticket and travel documents</li>

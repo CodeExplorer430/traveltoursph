@@ -243,7 +243,7 @@ export default function PaymentForm({ totalPrice, onSubmit, onBack }: PaymentFor
             <div className="bg-blue-50 border border-blue-200 rounded-lg p-4 mt-4">
               <p className="text-sm text-blue-900 font-medium mb-2">Payment Instructions:</p>
               <ol className="text-sm text-blue-800 space-y-1 list-decimal list-inside">
-                <li>Click "Complete Booking" to proceed</li>
+                <li>Click &quot;Complete Booking&quot; to proceed</li>
                 <li>You will be redirected to {paymentData.paymentMethod === "gcash" ? "GCash" : "PayMaya"} app/website</li>
                 <li>Enter your PIN to authorize payment</li>
                 <li>Wait for confirmation before closing the window</li>
